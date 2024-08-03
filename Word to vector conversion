@@ -1,0 +1,22 @@
+word to vector
+go = [0.23, 0.48, 0.96 ... ] ...length is 300
+similarly all words are converted to vector
+
+
+how conversion is done
+
+	- deciding the window size
+	- skip gram modeling
+	- pair with the words to make the training samples
+	- each word is converted into one hot vector / or a dummy vector
+
+https://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/
+
+one hot vector conversion have drawback that it does not differentiate as per the meaning, like bank can have many meaning.
+
+test that the vector work
+
+advantages
+	- can find similar characteristics nearby
+	- 
+
